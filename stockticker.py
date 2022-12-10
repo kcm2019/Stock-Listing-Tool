@@ -40,10 +40,3 @@ def scrape_stock_info(stock):
 
 info = scrape_stock_info("AAPL")
 print(info)
-# Output: 
-# {
-#   "price": "123.45",
-#   "market_cap": "1.23T",
-#   "range": "100.00 - 150.00",
-#   "headlines": ["Headline 1", "Headline 2", "Headline 3"]
-# }
